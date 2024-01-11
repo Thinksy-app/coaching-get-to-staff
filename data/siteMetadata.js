@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Get to Staff Coaching',
+  title: 'Get to Staff',
   author: 'Eden Ghirmai',
-  headerTitle: 'Get To Staff',
+  headerTitle: 'Get to Staff',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
