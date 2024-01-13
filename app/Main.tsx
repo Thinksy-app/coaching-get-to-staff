@@ -21,7 +21,7 @@ export default function Home({ posts }) {
           </h1>
         </div>
         <div>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          <p className="text-lg leading-7">
           Our mission is to provide actionable steps that propel interns to senior software engineers, towards a coveted promotion to Staff Software Engineer.
 
           <br /><br />
@@ -36,9 +36,17 @@ export default function Home({ posts }) {
           <strong>🚀 Coaching:</strong><br />
 
           Need a plan tailored to you? Check out <Link href="/coaching" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" >Get to Staff coaching</Link> to meet regularly with Eden and create a personalized action plan for your next performance cycle.
-          <br />
-          <br />
+          <br /><br />
           </p>
+        </div>
+
+        <div className="flex flex-col justify-center items-center text-base font-medium leading-6">
+          <p className="text-lg leading-7">Subscribe for tips every Monday!</p>
+          <iframe
+            src="https://www.gettostaff.com/embed"
+            width={480}
+            height={150}
+          ></iframe>
         </div>
       </div>
 
@@ -106,11 +114,11 @@ export default function Home({ posts }) {
         </div>
       )}
       <div className="flex justify-center text-base font-medium leading-6">
-      <iframe
-        src="https://www.gettostaff.com/embed"
-        width={480}
-        height={150}
-      ></iframe>
+        <iframe
+          src="https://www.gettostaff.com/embed"
+          width={480}
+          height={150}
+        ></iframe>
       </div>
     </>
   )

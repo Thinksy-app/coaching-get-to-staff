@@ -10,6 +10,7 @@ import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import tagData from 'app/tag-data.json'
+import Image from '@/components/Image'
 
 interface PaginationProps {
   totalPages: number
@@ -78,6 +79,63 @@ export default function ListLayoutWithTags({
   return (
     <>
       <div>
+
+      <div>
+        <div className="flex items-center space-x-4 pb-8 pt-6 md:space-x-5">
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            newsletter
+          </h1>
+        </div>
+        <div>
+
+          <p className='text-lg leading-7'>Hi, I'm Eden.</p>
+
+          <br />
+
+          <Image
+            src="/static/images/it-me.webp"
+            alt="avatar"
+            width={500}
+            height={100}
+          />
+
+          <br />
+
+          <p className="text-lg leading-7">
+            
+            I’m the co-founder of <Link href="https://thinksy.app/" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="Thinksy">Thinksy</Link> and have worked as an engineer at Slack, YouTube and Microsoft. I managed to get promoted up to <strong>Staff Engineer in 5 years</strong>.
+
+            <br /> <br />
+
+            I believe <strong>there is a formula to getting promoted quickly</strong> and you don’t have to trust people who say “it’ll come with time.” If you want to make it happen fast, you can.
+
+
+            <br /> <br />
+          </p>
+
+          <h2 className="text-2xl font-bold leading-8 tracking-tight">
+            Okay what’s this newsletter about?
+          </h2>
+
+          <br />
+
+          <p className="text-lg leading-7">
+          I share tips and tricks of the trade. If you want to become staff quickly you need to be very intentional with how you spend your time at work. Some of it is intuitive, some is not. I share how I got there quickly and how you can, too.
+          </p>
+
+          <br /> <br />
+        </div>
+
+        <div className="flex flex-col justify-center items-center text-base font-medium leading-6">
+          <p className="text-lg leading-7">Subscribe for tips every Monday!</p>
+          <iframe
+            src="https://www.gettostaff.com/embed"
+            width={480}
+            height={150}
+          ></iframe>
+        </div>
+      </div>
+
         <div className="pb-6 pt-6">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:hidden sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             {title}
