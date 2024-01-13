@@ -1,14 +1,47 @@
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
-import { formatDate } from 'pliny/utils/formatDate'
-import NewsletterForm from 'pliny/ui/NewsletterForm'
+import Image from '@/components/Image'
 
 const MAX_DISPLAY = 5
 
 export default function Home({ posts }) {
   return (
     <>
+      <div>
+        <div className="flex items-center space-x-4 pb-8 pt-6 md:space-x-5">
+          <Image
+            src="/static/images/wizard.png"
+            alt="avatar"
+            width={100}
+            height={100}
+          />
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            your pathway to staff+
+          </h1>
+        </div>
+        <div>
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          Our mission is to provide actionable steps that propel interns to senior software engineers, towards a coveted promotion to Staff Software Engineer.
+
+          <br /><br />
+
+          <strong>📰 Weekly Newsletter:</strong> <br />
+
+          Subscribe to our <Link href="/newsletter" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">weekly newsletter</Link> to receive actionable steps you can take <strong>today</strong> to work towards your promotion.
+
+
+          <br /><br />
+
+          <strong>🚀 Coaching:</strong><br />
+
+          Need a plan tailored to you? Check out <Link href="/coaching" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" >Get to Staff coaching</Link> to meet regularly with Eden and create a personalized action plan for your next performance cycle.
+          <br />
+          <br />
+          </p>
+        </div>
+      </div>
+
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
@@ -72,11 +105,13 @@ export default function Home({ posts }) {
           </Link>
         </div>
       )}
-      {siteMetadata.newsletter?.provider && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
-        </div>
-      )}
+      <div className="flex justify-center text-base font-medium leading-6">
+      <iframe
+        src="https://www.gettostaff.com/embed"
+        width={480}
+        height={150}
+      ></iframe>
+      </div>
     </>
   )
 }
