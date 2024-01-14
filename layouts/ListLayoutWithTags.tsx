@@ -129,7 +129,7 @@ export default function ListLayoutWithTags({
         <div className="flex flex-col justify-center items-center text-base font-medium leading-6">
           <p className="text-lg leading-7">Subscribe for tips every Monday!</p>
           <iframe
-            src="https://www.gettostaff.com/embed"
+            src="https://entreeden.substack.com/embed"
             width={480}
             height={150}
           ></iframe>
