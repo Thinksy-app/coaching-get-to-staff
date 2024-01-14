@@ -145,7 +145,7 @@ export default function ListLayoutWithTags({
           <div>
             <ul>
               {displayPosts.map((post) => {
-                const { path, date, title, summary, tags } = post
+                const { path, date, title, summary, images } = post
                 return (
                   <li key={path} className="py-5">
                     <article className="flex flex-col space-y-2 xl:space-y-0">
@@ -165,6 +165,14 @@ export default function ListLayoutWithTags({
                         </div>
                         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                           {summary}
+                        </div>
+                        <div>
+                            <Image
+                                src={images}
+                                alt="blog image"
+                                width={500}
+                                height={500}
+                            />
                         </div>
                       </div>
                     </article>
