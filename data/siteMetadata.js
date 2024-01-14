@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'A weekly newsletter with actionable steps to becoming a Staff Software Engineer',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://thinksy-app.github.io/coaching-get-to-staff',
+  siteUrl: 'https://www.gettostaff.com',
   siteRepo: 'https://github.com/Thinksy-app/coaching-get-to-staff',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
