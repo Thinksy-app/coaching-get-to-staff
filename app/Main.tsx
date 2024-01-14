@@ -22,7 +22,7 @@ export default function Home({ posts }) {
         </div>
         <div>
           <p className="text-lg leading-7">
-          Our mission is to provide actionable steps that propel interns to senior software engineers, towards a coveted promotion to Staff Software Engineer.
+          Our mission is to provide actionable steps that propel <strong>ambitious engineers</strong> towards a coveted promotion to Staff Software Engineer.
 
           <br /><br />
 
