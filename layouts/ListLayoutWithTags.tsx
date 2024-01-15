@@ -83,7 +83,7 @@ export default function ListLayoutWithTags({
       <div>
         <div className="flex items-center space-x-4 pb-8 pt-6 md:space-x-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            newsletter
+            Newsletter
           </h1>
         </div>
         <div>
