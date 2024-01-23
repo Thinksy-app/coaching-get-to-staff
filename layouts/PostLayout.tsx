@@ -95,7 +95,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               <div className="prose max-w-none pb-8 pt-10 dark:prose-invert">{children}</div>
               <div className="flex justify-center text-base font-medium leading-6">
                 <iframe
-                  src="https://entreeden.substack.com/embed"
+                  src="https://newsletter.gettostaff.com/embed"
                   width={480}
                   height={150}
                 ></iframe>
