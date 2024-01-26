@@ -92,19 +92,28 @@ export function Testimonials() {
                                         <span className="text-lg leading-none italic font-bold  ml-1">"</span></p>
                                 </div>
                             </div>
-                            {/* <div className="w-full mx-auto rounded-lg  border border-gray-200 p-5  font-light mb-6">
+                            <div className="w-full mx-auto rounded-lg  border border-gray-200 p-5  font-light mb-6">
                                 <div className="w-full flex mb-4 items-center">
                                     <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                        <Image width={38} height={38} src="/static/images/testimonials/emilio.jpeg" alt=""/>
+                                        <Image width={38} height={38} src="/static/images/testimonials/sanga.png" alt=""/>
                                     </div>
                                     <div className="flex-grow pl-3">
-                                        <Link href="https://www.linkedin.com/in/emilioaurea/" className="text-secondary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="Emilio A. Linkedin"><h6 className="font-bold text-sm uppercase">Emilio A.</h6></Link>
+                                    <Link href="" className="text-secondary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="Sanga Y. Linkedin"><h6 className="font-bold text-sm uppercase">Sanga Y.</h6></Link>
                                     </div>
                                 </div>
                                 <div className="w-full">
-                                    <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold  mr-1">&ldquo;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span className="text-lg leading-none italic font-bold  ml-1">"</span></p>
+                                    <p className="text-sm leading-tight">
+                                        <span className="text-lg leading-none italic font-bold  mr-1">&ldquo;</span>
+                                        Eden is a terrific resource! He somehow always knows what leadership is looking for and is also able to deliver that impact effortlessly.<br /> <br />
+
+                                        He passed down these insights to me and made my climb up the engineering levels super easy by pointing out what I should be working on to move the needle while helping me avoid busy work that didn’t benefit anyone.<br /> <br />
+
+                                        These seemingly small shifts in where my energy and time is dedicated awarded me with stellar performance reviews while simultaneously spending less time at work.<br /> <br />
+
+                                        Eden’s got the secret sauce to excelling at engineering by teaching you how to maximize effectiveness instead of learning how to code faster.
+                                        <span className="text-lg leading-none italic font-bold  ml-1">"</span></p>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
 
                         <div className="px-3 md:w-1/3">
@@ -128,19 +137,27 @@ export function Testimonials() {
                                         <span className="text-lg leading-none italic font-bold  ml-1">"</span></p>
                                 </div>
                             </div>
-                            {/* <div className="w-full mx-auto rounded-lg  border border-gray-200 p-5  font-light mb-6">
+                            <div className="w-full mx-auto rounded-lg  border border-gray-200 p-5  font-light mb-6">
                                 <div className="w-full flex mb-4 items-center">
                                     <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                        <Image width={38} height={38} src="https://i.pravatar.cc/100?img=2" alt=""/>
+                                        <Image width={38} height={38} src="/static/images/testimonials/emilio.jpeg" alt=""/>
                                     </div>
                                     <div className="flex-grow pl-3">
-                                        <h6 className="font-bold text-sm uppercase ">Kris Stanton.</h6>
+                                        <Link href="https://www.linkedin.com/in/emilioaurea/" className="text-secondary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="Emilio A. Linkedin"><h6 className="font-bold text-sm uppercase">Emilio A.</h6></Link>
                                     </div>
                                 </div>
                                 <div className="w-full">
-                                    <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold  mr-1">&ldquo;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span className="text-lg leading-none italic font-bold  ml-1">"</span></p>
+                                    <p className="text-sm leading-tight">
+                                        <span className="text-lg leading-none italic font-bold  mr-1">&ldquo;</span>
+                                        <strong>Eden was instrumental during my promotion to Senior Software Engineer</strong> and was so impactful in helping me navigate that process.  <br /><br />
+
+                                        Additionally, Eden was an incredible source of support for me in general. I would talk and ramble about my struggles at work ranging from burnout to working on impactful projects to switching teams.<br /><br />
+
+                                        Eden really invests in you and your growth and is an expert at navigating workspace challenges and setting yourself up for success (especially if you come from an under-represented background)!
+                                        <span className="text-lg leading-none italic font-bold  ml-1">"</span>
+                                    </p>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
