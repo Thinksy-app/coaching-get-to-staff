@@ -199,9 +199,19 @@ export default function CoachingLayout() {
 
         <br /><br />
 
+
         <div>
             <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                Schedule your consultation today:
+                Testimonials
+            </h2>
+            <Testimonials />
+        </div>
+
+        <br /><br />
+
+        <div>
+            <h2 className="text-2xl font-bold leading-8 tracking-tight">
+                Schedule your free consultation today:
             </h2>
 
             <p className="text-lg leading-7 text-gray-500 dark:">
@@ -228,15 +238,6 @@ export default function CoachingLayout() {
 
             </p>
 
-        </div>
-
-        <br /><br />
-
-        <div>
-            <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                Testimonials
-            </h2>
-            <Testimonials />
         </div>
 
         <br /><br />
