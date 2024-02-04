@@ -133,6 +133,26 @@ export function Testimonials() {
                                         <span className="text-lg leading-none italic font-bold  ml-1">"</span></p>
                                 </div>
                             </div>
+                            <div className="w-full mx-auto rounded-lg  border border-gray-200 p-5  font-light mb-6">
+                                <div className="w-full flex mb-4 items-center">
+                                    <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                        <Image width={38} height={38} src="/static/images/testimonials/eric.jpeg" alt=""/>
+                                    </div>
+                                    <div className="flex-grow pl-3">
+                                    <Link href="https://www.linkedin.com/in/eric-vc-latham-ii/" className="text-secondary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="Eric L. Linkedin"><h6 className="font-bold text-sm uppercase">Eric L.</h6></Link>
+                                    </div>
+                                </div>
+                                <div className="w-full">
+                                    <p className="text-sm leading-tight">
+                                        <span className="text-lg leading-none italic font-bold  mr-1">&ldquo;</span>
+                                            Eden has done an excellent job as a mentor for me during college. <br /><br />
+
+                                            He is both technically and emotionally intelligent, two things that make him an exceptional mentor and leader in this field.<br /><br />
+
+                                            <strong>Using his advice, I was able to land internships at top companies like Google and succeed in becoming a top performer.</strong>
+                                        <span className="text-lg leading-none italic font-bold  ml-1">"</span></p>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="px-3 md:w-1/3">
