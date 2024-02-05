@@ -17,10 +17,8 @@ export function MyCalendar() {
         })();
     }, [])
     return <Cal calLink="edeng/initial-consultation-get-to-staff"
-        style={{width:"99%",height:"99%",overflow:"scroll"}}
+        style={{width:"95%",height:"95%",overflow:"scroll"}}
         config={{layout: 'month_view'}}
-
-
     />;
 };
 
@@ -220,9 +218,19 @@ export default function CoachingLayout() {
         </div>
 
         <div>
-            <h2 className="text-2xl font-bold leading-8 tracking-tight">
+            {/* <h2 className="text-2xl font-bold leading-8 tracking-tight">
                 Performance review preparation for high performers
-            </h2>
+            </h2> */}
+
+            <div className="flex justify-center items-center bg-[#EEF3FF]">
+                <Image
+                src="/static/images/coaching-header.png"
+                alt="Performance review preparation for high performers"
+                width={500}
+                height={500}
+                />
+            </div>
+
 
             <br />
 
@@ -270,6 +278,20 @@ export default function CoachingLayout() {
                 Pricing
             </h2>
 
+            <div className="relative bg-[#EEF3FF] flex justify-center items-center">
+                <Image
+                    src="/static/images/coaching-2.png"
+                    alt="Performance review preparation for high performers"
+                    width={500}
+                    height={500}
+                />
+                <Link href="https://buy.stripe.com/8wM7vxblEbDz1lmdQZ" className="absolute bottom-0 left-1/3 transform -translate-x-1/2 -translate-y-1/2 h-10 w-20"></Link>
+                <Link href="https://buy.stripe.com/9AQ2bd61k7nje8800a" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-10 w-20"></Link>
+                <Link href="https://buy.stripe.com/6oE0359dw4b72pq9AL" className="absolute bottom-0 left-2/3 transform -translate-x-1/2 -translate-y-1/2 h-10 w-20"></Link>
+            </div>
+
+            <br />
+
             <p className="text-lg leading-7">
             • Free 45min initial consultation<br />
             • <Link href="https://buy.stripe.com/8wM7vxblEbDz1lmdQZ" className="text-secondary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="stripe payment link single coaching">Pay as you go single coaching session $500</Link><br />
@@ -285,7 +307,7 @@ export default function CoachingLayout() {
           <p className="text-lg leading-7">Subscribe for tips every Monday!</p>
           <iframe
             src="https://newsletter.gettostaff.com/embed"
-            width={480}
+            width={300}
             height={150}
           ></iframe>
         </div>
