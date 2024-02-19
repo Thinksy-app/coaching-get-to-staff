@@ -224,34 +224,29 @@ export default function CoachingLayout() {
 
             <div className="flex justify-center items-center bg-[#EEF3FF]">
                 <Image
-                src="/static/images/coaching-header.png"
+                src="/static/images/coach.png"
                 alt="Performance review preparation for high performers"
-                width={500}
-                height={500}
+                width={800}
+                height={800}
                 />
             </div>
 
+            <p className="text-lg leading-7 pt-10">
+                Hi! I'm Eden. <br/><br/>
 
-            <br />
+                I've been a full time software engineer for 8 years and went from new grad to staff engineer in 6. I believe there's a way for every engineer to get what they want out of their job/career as long as they work smarter, not harder. <br /><br />
 
-            <p className="text-lg leading-7">
-            If you want to become staff quickly you need to be very intentional with how you spend your time at work. Some of it is intuitive, some is not. <br /><br />
+                <strong>My coaching is for you if you want any of these things in your career:<br /></strong>
+                • promotion <br />
+                • pay raise <br />
+                • better job <br />
+                • more work/life balance <br />
+                • career direction <br /><br />
 
-            In our coaching sessions we will plan out exactly what moves you need to make to get high ratings on your next performance review.
 
+                I currently have openings for more clients, <strong>space is limited</strong> so schedule your consultation today :) 👇🏾
             </p>
 
-
-        </div>
-
-        <br /><br />
-
-
-        <div>
-            <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                Testimonials
-            </h2>
-            <Testimonials />
         </div>
 
         <br /><br />
@@ -270,6 +265,16 @@ export default function CoachingLayout() {
           </p>
                 <MyCalendar />
         </div>
+
+        <div>
+            <h2 className="text-2xl font-bold leading-8 tracking-tight">
+                Testimonials
+            </h2>
+            <Testimonials />
+        </div>
+
+        <br /><br />
+
 
         <br /><br />
 
