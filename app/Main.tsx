@@ -44,7 +44,7 @@ export default function Home({ posts }) {
           <p className="text-lg leading-7">Subscribe for tips every Monday!</p>
           <iframe
             src="https://newsletter.gettostaff.com/embed"
-            width={480}
+            width={300}
             height={150}
           ></iframe>
         </div>
