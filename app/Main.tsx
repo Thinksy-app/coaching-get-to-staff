@@ -17,19 +17,19 @@ export default function Home({ posts }) {
             height={100}
           />
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Your path to staff+
+            Get the most out of your career 
           </h1>
         </div>
         <div>
           <p className="text-lg leading-7">
-          Our mission is to provide actionable steps that propel <strong>ambitious engineers</strong> towards a coveted promotion to Staff Software Engineer.
+
+          Our mission is to provide actionable steps for engineers to make the <strong>most</strong> out of their job.  <br /><br />That means creating personal/career goals that benefit <strong>you</strong> and not just your employer.
 
           <br /><br />
 
           <strong>📰 Weekly Newsletter:</strong> <br />
 
-          Subscribe to our <Link href="/newsletter" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">weekly newsletter</Link> to receive actionable steps you can take <strong>today</strong> to work towards your promotion.
-
+          Subscribe to our <Link href="http://newsletter.gettostaff.com" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">weekly newsletter</Link> to receive actionable steps you can take <strong>today</strong> to work towards your personal and professional goals.
 
           <br /><br />
 
