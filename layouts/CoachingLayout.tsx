@@ -253,7 +253,7 @@ export default function CoachingLayout() {
 
         <div>
             <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                Schedule your free consultation today:
+                Schedule your consultation today:
             </h2>
 
             <p className="text-lg leading-7 text-gray-500 dark:">
@@ -298,7 +298,7 @@ export default function CoachingLayout() {
             <br />
 
             <p className="text-lg leading-7">
-            • Free 45min initial consultation<br />
+            • 45min initial consultation<br />
             • <Link href="https://buy.stripe.com/8wM7vxblEbDz1lmdQZ" className="text-secondary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="stripe payment link single coaching">Pay as you go single coaching session $500</Link><br />
             • <Link href="https://buy.stripe.com/9AQ2bd61k7nje8800a" className="text-secondary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="stripe payment link single coaching">Six sessions over three months <s>$3,000</s> $2,800</Link><br />
             • <Link href="https://buy.stripe.com/6oE0359dw4b72pq9AL" className="text-secondary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="stripe payment link single coaching">12 sessions over one year <s>$6,000</s> $5,000</Link>
