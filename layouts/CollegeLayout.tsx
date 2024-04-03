@@ -102,8 +102,8 @@ export default function CourseLayout() {
             🏅 Coaching
             </h1>
 
-            <p>
-                Use code "DTech100" for $100 off a single session <br/><br/>
+            <p className="md:text-xl">
+                Use code <strong>DTech100</strong> for $100 off a single session <br/><br/>
                 Schedule now at <Link className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="/coaching">gettostaff.com/coaching</Link>
             </p>
         </div>                     
