@@ -24,7 +24,7 @@ export default function CourseLayout() {
         <div className="divide-y divide-gray-200 dark:divide-gray-700 pb-2">
             <div>
                 <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
-                    Webinars
+                    💻 Upcoming Webinars
                 </h1>
             </div>
         </div>
@@ -47,59 +47,65 @@ export default function CourseLayout() {
             <p className='leading-7'>
                 Hosted by <Link href="https://www.linkedin.com/in/edenghirmai/" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">Eden</Link> & <Link href="https://www.linkedin.com/in/calli-fuchigami-582a9456/" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">Calli</Link>
             </p>
-        </div>        
+        </div>  
 
-        <div className="divide-y divide-gray-200 dark:divide-gray-700 pb-2">
-            <div>
-                <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
-                    Resources
-                </h1>
+        <hr className='pb-4' />              
+
+        <div className='pb-8 flex flex-col md:flex-row'>
+            <div className="md:mr-4">
+                <h1 className="font-bold text-xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-xl sm:leading-10 md:text-3xl md:leading-14">
+                🗞️ Newsletter
+                </h1>            
+
+                <div className="relative flex justify-center items-center">
+                    <Link href="https://newsletter.gettostaff.com">
+                        <Image
+                            src="/static/images/newsletter.png"
+                            alt="avatar"
+                            width={800}
+                            height={800}
+                        />
+                    </Link>
+                </div>
+
+                <div className="flex flex-col justify-center items-center text-base font-medium leading-6 pt-8">
+                    <iframe
+                        src="https://newsletter.gettostaff.com/embed"
+                        width={300}
+                        height={150}
+                    ></iframe>
+                </div>        
+
             </div>
+
+            <div className="md:ml-4">
+                    <h1 className="font-bold text-xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-xl sm:leading-10 md:text-3xl md:leading-14">
+                        🤫 Private community
+                    </h1>
+
+                    <p className="border border-black md:text-xl p-6">
+                        The journey to staff comes with sporadic and extremely specific problems that are hard to solve on your own. <br /> <br />
+
+                        Without other like minded people to talk to, it’s easy to get trapped in analysis paralysis. <br /> <br />
+
+                        So we decided to open up a community exclusive to our paid Get to Staff subscribers. ❤️‍🔥 <br /> <br />
+
+                        Just select any paid plan when you <Link className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="http://newsletter.gettostaff.com/subscribe">subscribe</Link> and you’ll be automatically added to the Slack channel 🪄
+                    </p>
+
+            </div>    
+
         </div>
-
-
-        <div className='pb-8'>
-            <h1 className="font-bold text-xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-xl sm:leading-10 md:text-3xl md:leading-14">
-            🗞️ Newsletter
-            </h1>            
-
-            <Link href="https://newsletter.gettostaff.com">
-                <Image
-                    className="flex justify-center items-center"
-                    src="/static/images/newsletter.png"
-                    alt="avatar"
-                    width={800}
-                    height={800}
-                />
-            </Link>
-
-
-            <div className="flex flex-col justify-center items-center text-base font-medium leading-6 pt-8">
-                <iframe
-                    src="https://newsletter.gettostaff.com/embed"
-                    width={300}
-                    height={150}
-                ></iframe>
-            </div>        
-        </div>            
 
         <div className='pb-8'>
             <h1 className="font-bold text-xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-xl sm:leading-10 md:text-3xl md:leading-14">
             🏅 Coaching
             </h1>
 
-            <div className="relative bg-[#EEF3FF] flex justify-center items-center">
-                <Image
-                    src="/static/images/coaching-2.png"
-                    alt="Performance review preparation for high performers"
-                    width={500}
-                    height={500}
-                />
-                <Link href="https://buy.stripe.com/8wM7vxblEbDz1lmdQZ" className="absolute bottom-0 left-1/3 transform -translate-x-1/2 -translate-y-1/2 h-10 w-20"></Link>
-                <Link href="https://buy.stripe.com/9AQ2bd61k7nje8800a" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-10 w-20"></Link>
-                <Link href="https://buy.stripe.com/6oE0359dw4b72pq9AL" className="absolute bottom-0 left-2/3 transform -translate-x-1/2 -translate-y-1/2 h-10 w-20"></Link>
-            </div>
-
+            <p>
+                Use code "DTech100" for $100 off a single session <br/><br/>
+                Schedule now at <Link className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="/coaching">gettostaff.com/coaching</Link>
+            </p>
         </div>                     
     
     </div>
