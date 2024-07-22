@@ -27,16 +27,16 @@ export default function Home({ posts }) {
 
           <br /><br />
 
-          <strong>📰 Weekly Newsletter:</strong> <br />
+          <strong>📰 Weekly Newsletter:</strong> <br /><br />
 
-          Subscribe to our <Link href="http://newsletter.gettostaff.com" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">weekly newsletter</Link> to receive actionable steps you can take <strong>today</strong> to work towards your personal and professional goals.
+          Subscribe to our <Link href="http://newsletter.gettostaff.com/subscribe" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">weekly newsletter</Link> to receive actionable steps you can take <strong>today</strong> to work towards your personal and professional goals.
 
           <br /><br />
 
-          <strong>🚀 Coaching:</strong><br />
+          {/* <strong>🚀 Coaching:</strong><br />
 
           Need a plan tailored to you? Check out <Link href="/coaching" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" >Get to Staff coaching</Link> to meet regularly with Eden and create a personalized action plan for your next performance cycle.
-          <br /><br />
+          <br /><br /> */}
           </p>
         </div>
 
