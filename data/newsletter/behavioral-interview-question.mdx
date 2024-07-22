@@ -1,0 +1,74 @@
+---
+title: The Behavioral Interview Question That Speaks Volumes About a Software Engineer
+date: '2024-07-08'
+draft: false
+summary: How this single question can illuminate a candidate's seniority
+images: '/static/images/blog/gts29.webp'
+---
+
+I love doing behavioral interviews because I find them more telling than technical interviews, especially when it comes to more senior positions.
+
+For each level, I’d always include this common question in my interviews: **Tell me about a bug or outage you’ve caused.**
+
+Here I’ll break down what I expect from a Junior/Mid-level engineer, Senior engineer and Staff engineer.
+
+Regardless of level, I expect the engineer to answer this using blameless vocabulary. Bugs/outages are never caused by an individual! Humans will make mistakes so it’s up to a team to ensure human error is prevented by systems as much as possible.
+
+# Mid-level / Junior
+
+_TL;DR:_
+- _Fix the bug / put out the fire_
+
+If at this level the engineer is already starting off with blameless vocabulary, we’re off to a pretty strong start. From there, I look for a few things:
+
+- How did they react when finding out about the bug they caused?
+    - ✅ Let’s the team know as soon as possible
+    - ✅ Takes ownership and helps come to a solution
+    - 🚫 Ignores it for someone else to find out
+    - 🚫 Blames it on an another individual
+- How did they prevent themselves from causing the bug again?
+    - ✅ Updated documentation
+    - ✅ Updated the code / script
+    - 🚫 Just tried to remember to not do it again
+
+# Senior
+
+_TL;DR:_
+- _Fix the bug / put out the fire_
+- _Update system so that it wont happen again on the team_
+
+At the senior level you want the scope of impact to be across the team, so we want them to not only remediate the problem but make sure it wont happen again on this team.
+
+- How did they react when finding out about the bug they caused?
+    - ✅ Assemble the necessary people and fix the bug / stop the incident
+    - 🚫 Do nothing
+- How did they prevent the bug from happening again?
+    - ✅ Update code to prevent human error (e.g. adding more tests)
+    - ✅ Write up summary for the team so they know what happened
+    - ✅ Update process for team for further prevention (e.g. requiring unit tests with each PR)
+
+# Staff
+
+_TL;DR:_
+- _Fix the bug / put out the fire_
+- _Update system so that it wont happen again on the team_
+- _Educate wider organization on how to change their systems to prevent a similar incident_
+
+At the staff level scope now is beyond your team.
+
+- How did they react when finding out about the bug they caused?
+    - ✅ Assemble the necessary people and fix the bug / stop the incident
+- How did they prevent the bug from happening again?
+    - ✅ Update code to prevent human error (e.g. adding more tests)
+    - ✅ Write up summary for the team so they know what happened
+    - ✅ Update process for team for further prevention (e.g. requiring unit tests with each PR)
+    - ✅ Do a knowledge share with a wider audience on how to catch these things for their codebase
+    - ✅ Work with other staff+ engineers across different teams to create a process around the entire codebase to help with prevention (e.g. create new type of monitoring tool to alert when X is down)
+
+# Conclusion
+
+At the end of the day the biggest difference between levels is often scope of impact. The further you move up the more you have to think about making changes that make things better for more engineers around you.
+
+Thanks for reading :)
+
+Eden

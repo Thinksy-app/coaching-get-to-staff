@@ -1,0 +1,71 @@
+---
+title: 3 Steps to Estimating a Project
+date: '2024-05-09'
+draft: false
+summary: How are you supposed to guess what the future holds?
+images: '/static/images/blog/gts26.webp'
+---
+
+The funny thing about project estimates are… they’re kind of impossible to do accurately. There are so many things that can throw a project off like:
+
+- Someone taking emergency medical leave
+- An incident that slows down development of a dependency
+- Someone leaving your team
+- Change in management
+- New requirements from an internal team
+
+So, what is the right way to estimate a project? While there’s no one right way, I’m going to share my three key steps to project estimations.
+
+# 1. Time Box!
+
+There’s diminishing returns when it comes to estimating a large project. I honestly believe spending a day on an estimate is just as good (if not better) as spending a few weeks.
+
+Let’s make up a scenario. My manager comes to me and tells me a customer would like a new feature where they can search users by membership status and would like an estimate for how long that might take. I would take **about an hour** to think through these things:
+
+- Is there a current searching mechanism for users (something we could leverage/reuse?)
+    - Does this search mechanism already have filtering or would we need to add that?
+    - If the mechanism exists, are there FE changes that need to be made or can it all be done on the BE side?
+- Where is this membership data stored, is it already indexed?
+- How do the customers want access this information? Is it during a data export, during their day to day, or maybe just through an API?
+    - This helps me understand QPS/scale/and where it should be implemented
+- Will we need to work with the search team on this? Or do they have tooling we could leverage?
+
+I want to answer these big questions, most importantly I want to learn when are we going to need to create something **new** vs leverage something that already exists. With some basic research on Slack (and maybe even bringing up some questions on #team-search) I can get a general idea of the complexity.
+
+From there I use past experience from myself and relevant experts to try and piece together a timeline.
+
+# 2. Prototype
+
+When I’m creating something that’s mostly net new I find prototyping the fastest way to learn how it’ll look. I spin up a dev branch and try to get a very basic functionality working end to end so I understand all the pieces that are going to be touched.
+
+Reusing the previous example, I might hack together a prototype reusing an existing search API that’s really meant for messages instead of user types.
+
+During your prototyping you’ll notice things that were more complicated than you thought (e.g. I might notice that the search API I planned on leveraging only refreshes user info every 24 hours which might not be fast enough for this new project).
+
+# 3. Continuous Updates
+
+Ok, so now you created a timeline and gave it to your manager. You picked an estimated launch date and it’s time to get to working.
+
+**WAIT!**
+
+The estimations aren’t over my friend. That was just an estimate! The chances that your project will be ready right on that day is slim to none. Your team could either finish it faster or things might come up that slow it down.
+
+Now your job is to keep an eye out on when things change. You’ve made a few assumptions at this point, keep track of when things start to fall off course. For example:
+
+- [Scope creep](https://en.wikipedia.org/wiki/Scope_creep), are people adding things to the project that weren’t a part of the initial estimates?
+- Unexpected change in staff
+- Difficulty getting help from dependent teams
+
+When they happen, **communicate to management!** For example:
+
+> Hey boss, just wanted to call out that Anne just got called into jury duty so we don’t have a dedicated front end engineer for the next 2-3 weeks.
+>
+> This will likely push back the pilot release, do you think we could get a backfill in the meantime or should we just plan to delay the release?
+
+Your manager is there to help with these problems and it’s your job to keep them updated when things start to go off track.
+
+Hope this helps! What tricks do you use when estimating projects?
+
+Thanks for reading
+
+Eden
