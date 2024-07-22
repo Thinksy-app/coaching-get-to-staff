@@ -243,8 +243,6 @@ export default function CoachingLayout() {
                 • more work/life balance <br />
                 • career direction <br /><br />
 
-
-                I currently have openings for more clients, <strong>space is limited</strong> so schedule your consultation today :) 👇🏾
             </p>
 
         </div>
@@ -252,18 +250,29 @@ export default function CoachingLayout() {
         <br /><br />
 
         <div>
-            <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                Schedule your consultation today:
+            <h2 className="alert text-2xl font-bold leading-8 tracking-tight text-red-800">
+                Sorry, there is currently no availability for new clients.
             </h2>
 
-            <p className="text-lg leading-7 text-gray-500 dark:">
-            <em>Issues viewing the calendar?&nbsp;
-            <Link href="https://cal.com/edeng/initial-consultation-get-to-staff" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="All posts">
-                Book directly here.</Link>
-            </em>
-            <br /><br />
-          </p>
-                <MyCalendar />
+            {/* <p className="text-lg leading-7 text-gray-500 dark:">
+                <em>Issues viewing the calendar?&nbsp;
+                <Link href="https://cal.com/edeng/initial-consultation-get-to-staff" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" aria-label="All posts">
+                    Book directly here.</Link>
+                </em>
+                <br /><br />
+            </p> */}
+
+            <p>
+                <br />
+                If you'd like some help, check out the <Link className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="https://newsletter.gettostaff.com/subscribe">Get to Staff private community</Link>.
+
+                <br /><br />
+
+                For $8/mo (or $80/year) you get access to the private Slack where you join Eden and other likeminded engineers to discuss topics and ask questions related to career development in engineering.
+
+                <br /><br />
+            </p>
+                {/* <MyCalendar /> */}
         </div>
 
         <div>
